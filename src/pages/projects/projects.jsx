@@ -9,12 +9,12 @@ const Projects = ({ projectsList }) => {
 
   return (
     <div>
-      <p>Voici la liste de tous mes projets</p>
       {projectsList.data.map((project, index) => (
         <div key={index}>
           <Link to={`/projects/${project.attributes.slug}`}> {project.attributes.name}</Link>
         </div>
       ))}
+       <br></br>
     </div>
   );
 };

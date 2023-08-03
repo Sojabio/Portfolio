@@ -19,5 +19,6 @@ Currently, two official plugins are available:
   - [x] slug en fonction du titre
   - [ ] contenu en markdown transformés en html via showdown
 
-- [ ] hébergement sur vercel
+- [x] hébergement sur vercel
+- [x] hébergement de l'API pour la donner à vercel
 - [ ] Bonus : la description n'est plus un markdown mais un array de components

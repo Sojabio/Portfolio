@@ -1,21 +1,39 @@
-import './navbar.css'
-import {Link} from 'react-router-dom'
+import React, { useState } from 'react';
+import './navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  return (
+  const [homeLinkContent, setHomeLinkContent] = useState('</>');
 
+  const handleHomeLinkHover = () => {
+    setHomeLinkContent('<Accueil/>');
+  };
+
+  const handleHomeLinkLeave = () => {
+    setHomeLinkContent('</>');
+  };
+
+  return (
     <nav>
       <ul>
-        <li>
-        <Link to="/About">À propos de moi</Link>
+        <li >
+          <Link id="home"
+            to="/"
+            onMouseEnter={handleHomeLinkHover}
+            onMouseLeave={handleHomeLinkLeave}
+          >
+            {homeLinkContent}
+          </Link>
         </li>
         <li>
-        <Link to="/Resume">Mon CV</Link>
+          <Link to="/About">À propos</Link>
+        </li>
+        <li>
+          <Link to="/Resume">CV</Link>
         </li>
       </ul>
     </nav>
-
-  )
-}
+  );
+};
 
 export default Navbar;
