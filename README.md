@@ -9,9 +9,9 @@ Currently, two official plugins are available:
 
 # features
 
--[x] page d'accueil /home
--[x] projets /projects :
--[x] projets/slug_du_projet
+-[x] page d'accueil 
+-[x] projets
+-[x] projet
   - [x] nom
   - [x] description
   - [x] date de sortie créée automatiquement à la création du projet
