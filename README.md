@@ -9,13 +9,13 @@ Currently, two official plugins are available:
 
 # features
 
-[x] page d'accueil /home
-[x] projets /projects :
-[x] projets/slug_du_projet
+-[x] page d'accueil /home
+-[x] projets /projects :
+-[x] projets/slug_du_projet
   - [x] nom
   - [x] description
   - [x] date de sortie créée automatiquement à la création du projet
   - [x] slug en fonction du titre
   - [] contenu en markdown transformés en html via showdown
-[] hébergement sur vercel
-[] Bonus : la description n'est plus un markdown mais un array de components
+-[] hébergement sur vercel
+-[] Bonus : la description n'est plus un markdown mais un array de components
