@@ -3,7 +3,7 @@ const Home = () => {
 
   return (
     <>
-    <p>Bienvenue sur mon portfolio </p>
+    <h1>Bienvenue sur mon portfolio </h1>
     <Link to="/projects">Voir mes projets</Link>
     </>
   )

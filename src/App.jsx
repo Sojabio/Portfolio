@@ -1,8 +1,12 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import Home from './components/Home/home';
-import Projects from './components/projects/projects';
-import Project from './components/projects/project';
+import Navbar from './components/navbar/navbar';
+import Home from './pages/Home/home';
+import About from './pages/about/about';
+import Resume from './pages/resume/resume';
+import Projects from './pages/projects/projects';
+import Project from './pages/projects/project';
+import Footer from './components/footer/footer'
 import {
   BrowserRouter,
   Routes,
@@ -28,13 +32,17 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Navbar/>
     <main>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/projects" element={<Projects projectsList={projectsList}/>} />
         <Route path="/projects/:slug" element={<Project projectsList={projectsList}/>} />
       </Routes>
     </main>
+    <Footer/>
   </BrowserRouter>
   )
 }

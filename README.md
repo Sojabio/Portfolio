@@ -8,7 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # features
-
+- [x] utilisation API strapi
+- [ ] ajout dans l'API des technos utilisées
 - [x] page d'accueil /home
 - [x] projets /projects
 - [x] projets/slug_du_projet
@@ -16,6 +17,7 @@ Currently, two official plugins are available:
   - [x] description
   - [x] date de sortie créée automatiquement à la création du projet
   - [x] slug en fonction du titre
-  - [] contenu en markdown transformés en html via showdown
-- [] hébergement sur vercel
-- [] Bonus : la description n'est plus un markdown mais un array de components
+  - [ ] contenu en markdown transformés en html via showdown
+
+- [ ] hébergement sur vercel
+- [ ] Bonus : la description n'est plus un markdown mais un array de components
