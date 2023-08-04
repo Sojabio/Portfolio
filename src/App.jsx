@@ -30,11 +30,11 @@ function App() {
 
   useEffect(() => {
     if (darkMode) {
-      document.getElementsByClassName("nav-toggle")[0].classList.add('dark-theme')
+      document.getElementsByClassName("foot-toggle")[0].classList.add('dark-theme')
       document.body.classList.add('dark-theme');
     } else {
       document.body.classList.remove('dark-theme');
-      document.getElementsByClassName("nav-toggle")[0].classList.remove('dark-theme')
+      document.getElementsByClassName("foot-toggle")[0].classList.remove('dark-theme')
 
     }
   }, [darkMode]);

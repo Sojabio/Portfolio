@@ -26,14 +26,11 @@ const Navbar = () => {
             {homeLinkContent}
           </Link>
         </li>
-        <li className="nav-toggle">
-          <ToggleButton/>
+        <li>
+          <Link to="/About">à propos</Link>
         </li>
         <li>
-          <Link to="/About">À propos</Link>
-        </li>
-        <li>
-          <Link to="/Resume">CV</Link>
+          <Link to="/Resume">cv</Link>
         </li>
       </ul>
     </nav>

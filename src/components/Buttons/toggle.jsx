@@ -8,9 +8,9 @@ export default function ToggleButton() {
 
   return (
     <>
-      <div className="nav-toggle" onClick={toggleDarkMode}>
+      <div onClick={toggleDarkMode}>
         {darkMode ? (
-          <FontAwesomeIcon icon={faSun} alt="switch to light mode" /> 
+          <FontAwesomeIcon icon={faSun} alt="switch to light mode" />
         ) : (
           <FontAwesomeIcon icon={faMoon} alt="switch to dark mode" />
         )}

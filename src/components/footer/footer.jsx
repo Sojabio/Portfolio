@@ -1,9 +1,15 @@
 import './footer.css'
+import ToggleButton from '../Buttons/toggle';
+
 
 const Footer = () => {
   return (
     <div className="footer">
-      Ceci est le footer
+      <ul>
+        <li className="foot-toggle">
+          <ToggleButton/>
+        </li>
+      </ul>
     </div>
   )
 }

@@ -1,14 +1,15 @@
 pre {
+  color:#FF75B5;
   font-size: 5rem;
   transition: 0.5s;
 }
 
 pre:hover {
-  color: rgb(174, 79, 79);
+  color: var(--green);
   transition: 0.5s;
 }
 
 .brackets {
-  color: rgb(77, 193, 77);
+  color: var(--blue-light)   ;
   font-size: 2rem;
 }

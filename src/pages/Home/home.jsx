@@ -3,14 +3,14 @@ import { useState } from 'react';
 import './home.css'
 const Home = () => {
 
-  const [sojabio, setSojabio] = useState("Soja Bio");
+  const [sojabio, setSojabio] = useState("solène jabaud");
 
   const handleSojaHover = () => {
-    setSojabio('Dev Web Fullstack');
+    setSojabio('dev web fullstack');
   };
 
   const handleSojaLeave = () => {
-    setSojabio('Soja Bio');
+    setSojabio('solène jabaud');
   };
 
   return (
@@ -18,7 +18,7 @@ const Home = () => {
     <Link to="/About"
       onMouseEnter={handleSojaHover}
       onMouseLeave={handleSojaLeave}>
-      <pre>&lt;{sojabio}/&gt;</pre>
+      <pre>&lt;{sojabio}&gt;</pre>
       </Link>
     <Link className="brackets" to="/projects">{"{ portfolio }"}</Link>
     </>

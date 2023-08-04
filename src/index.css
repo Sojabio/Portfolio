@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Source Code Pro', monospace;
   line-height: 1.5;
   font-weight: 400;
 
@@ -10,6 +11,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --purple: #B084EB;
+  --blue-light: #6FC1FF;
+  --pink: #FF75B5;
+  --blue: #6DB1FF;
+  --green: #13FFDC;
+  --orange: #FFB86C;
+  --light-orange: hsl(36, 100%, 77%);
+  --light:  #676B79;
+  --white: #f3f3f3;
 }
 
 .dark-theme *{
@@ -18,13 +29,13 @@
 
 
 a {
-  font-weight: bold;
-  color: #4abad1;
+  /* font-weight: bold; */
+  color: #B084EB;
   text-decoration: inherit;
   transition: 0.5s;
 }
 a:hover {
-  color: white;
+  color:  #13FFDC;
   transition: 0.5s;
 }
 
@@ -54,5 +65,5 @@ h1 {
   }
   a:hover {
     color: #747bff;
-  } */
-}
+  }
+} */
