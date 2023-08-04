@@ -1,11 +1,13 @@
 nav {
-  background-color: #333;
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 10vh;
   display: flex;
+  justify-content: space-between; /* Distribute items along the main axis */
+  align-items: center;
 }
 
 nav ul {
@@ -34,4 +36,9 @@ li:first-child {
   color: #4abad1;
 }
 
-
+.nav-toggle {
+  color: red;
+  position: fixed;
+  left: 50%; 
+  transform: translateX(-50%);
+}
