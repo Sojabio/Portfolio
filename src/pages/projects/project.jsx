@@ -12,13 +12,13 @@ const Project = ({projectsList}) => {
 
   return (
     <>
-    <p>nom : {projectData.attributes.name}</p>
-    <p>description : {projectData.attributes.content}</p>
-    <p>date de création : {projectData.attributes.publishedAt}</p>
-    {projectData.attributes.client && (
-    <p>{projectData.attributes.client}</p>
-    )}
-
+    <div className="card">
+      <div className="container">
+        <h4><b>{projectData.attributes.name}</b></h4>
+        <p>{projectData.attributes.content}</p>
+      </div>
+      <img src="./public/favicon-32x32.png" alt={projectData.attributes.slug} style={{ width: '100%' }} />
+    </div>
     </>
   )
 

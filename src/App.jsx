@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import './App.css'
 import Navbar from './components/navbar/navbar';
 import Home from './pages/Home/home';
@@ -6,15 +6,13 @@ import About from './pages/about/about';
 import Resume from './pages/resume/resume';
 import Projects from './pages/projects/projects';
 import Project from './pages/projects/project';
-import Footer from './components/footer/footer'
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from 'react-router-dom';
+import Footer from './components/footer/footer';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import { DarkModeContext } from './contexts/DarkModeProvider';
 
 function App() {
 
+  const {darkMode} = useContext(DarkModeContext);
   const [projectsList, setProjectsList] = useState("");
   const link = "http://localhost:1337/api/projects";
 
@@ -30,20 +28,23 @@ function App() {
       });
   }, []);
 
+
   return (
-    <BrowserRouter>
-    <Navbar/>
-    <main>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects projectsList={projectsList}/>} />
-        <Route path="/projects/:slug" element={<Project projectsList={projectsList}/>} />
-      </Routes>
-    </main>
-    <Footer/>
-  </BrowserRouter>
+    <div className={`app ${darkMode && 'dark-theme'}`}>
+      <BrowserRouter>
+        <Navbar/>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/projects" element={<Projects projectsList={projectsList}/>} />
+            <Route path="/projects/:slug" element={<Project projectsList={projectsList}/>} />
+          </Routes>
+        </main>
+        <Footer/>
+      </BrowserRouter>
+    </div>
   )
 }
 

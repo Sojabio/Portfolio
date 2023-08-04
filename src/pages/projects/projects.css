@@ -1,0 +1,10 @@
+h2 {
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 10vh;
+  text-align: center;
+  color: rgb(77, 193, 77);
+  font-size: 2rem;
+}

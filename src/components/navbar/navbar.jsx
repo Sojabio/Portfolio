@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import ToggleButton from '../Buttons/toggle';
 
 const Navbar = () => {
   const [homeLinkContent, setHomeLinkContent] = useState('</>');
@@ -24,6 +25,9 @@ const Navbar = () => {
           >
             {homeLinkContent}
           </Link>
+        </li>
+        <li>
+          <ToggleButton/>
         </li>
         <li>
           <Link to="/About">À propos</Link>

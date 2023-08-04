@@ -14,7 +14,7 @@ nav ul {
   margin: 0;
   padding: 0;
   justify-content: flex-end;
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 nav li {
@@ -33,3 +33,5 @@ li:first-child {
 #home:hover {
   color: #4abad1;
 }
+
+
