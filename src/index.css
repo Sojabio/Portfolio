@@ -21,21 +21,23 @@
   --light-orange: hsl(36, 100%, 77%);
   --light:  #676B79;
   --white: #f3f3f3;
+  --very-dark-grey: #292A2B;
 }
 
 .dark-theme *{
-  background-color: #242424;
+  background-color: var(--very-dark-grey);
 }
 
 
 a {
   /* font-weight: bold; */
-  color: #B084EB;
+  color: var(--purple);
   text-decoration: inherit;
   transition: 0.5s;
 }
+
 a:hover {
-  color:  #13FFDC;
+  color: var(--green);
   transition: 0.5s;
 }
 
@@ -46,11 +48,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #F1F1F1;
+  background-color: var(--white);
 }
 
 body.dark-theme {
-  background-color: #242424;
+  background-color: var(--very-dark-grey);
 }
 
 h1 {

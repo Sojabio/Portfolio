@@ -1,4 +1,3 @@
-
 .footer {
   background-color: white;
   position: fixed;
@@ -8,6 +7,7 @@
   height: 12vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer ul {
@@ -15,20 +15,21 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: flex-end;
-  flex-grow: 1;
+  align-items: center;
 }
 
+.footer ul li {
+  margin: 0 10px;
+}
 
 .foot-toggle {
   color: var(--orange);
-  position: fixed;
-  transform: translateX(-50%);
+  position: absolute;
+  right: 0; /* Position to the very right */
   cursor: pointer;
   padding-right: 1rem;
 }
 
-.foot-toggle:hover{
+.foot-toggle:hover {
   color: var(--green);
-
 }

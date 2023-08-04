@@ -1,0 +1,13 @@
+.button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color:var(--light)
+}
+
+.button:hover{
+  color: var(--green);
+}
+
+.toggle{
+  font-size: 1.2rem;
+}

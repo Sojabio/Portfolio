@@ -1,7 +1,8 @@
 .about{
-  color: var(--light);
+  color: var(--orange);
 }
 
 span{
-  color: var(--orange)
+  color: var(--white)
 }
+
