@@ -1,9 +1,69 @@
 .resume-container {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  gap: 25vh; /* Gap between columns */
+  gap: 10vh; /* Gap between columns */
+  font-size: 0.7rem;
 }
 
+.resume-container h4 {
+  font-weight: bold;
+}
+
+.resume-container span {
+  color: var(--pink)
+}
+
+.dark-theme .resume-container span{
+  color: var(--white);
+  font-weight: bold;
+}
+.dark-theme .resume-container h4{
+    color: var(--white);
+    font-weight: lighter;
+}
+
+.resume-container h3 {
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.dark-theme .resume-container h3 {
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+.resume-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: -0.9rem;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.dark-theme .resume-container li {
+  color: var(--orange);
+
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+
+
+
 .technos {
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
