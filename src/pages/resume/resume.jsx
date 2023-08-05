@@ -27,7 +27,7 @@ const Resume = () => {
           <h4><span>2009-2013</span> Master en études chinoises, École Normale Supérieure de Lyon</h4>
             <ul>
               <li>- apprentissage de la recherche universitaire : autonomie et rigueur</li>
-              <li>échanges académiques à Taiwan et en Chine</li>
+              <li>- échanges académiques à Taiwan et en Chine</li>
             </ul>
           <h4><span>2007-2009</span> Classe préparatoire aux grandes écoles, filiaire littéraire</h4>
             <ul>
