@@ -1,0 +1,9 @@
+.resume-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 25vh; /* Gap between columns */
+}
+
+.technos {
+  margin-top: 10rem;
+}

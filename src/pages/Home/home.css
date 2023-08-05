@@ -1,15 +1,42 @@
-pre {
-  color:#FF75B5;
+pre{
   font-size: 5rem;
   transition: 0.5s;
+  color: var(--very-dark-grey);
 }
 
 pre:hover {
-  color: var(--green);
+  color: var(--pink);
   transition: 0.5s;
 }
 
+.dark-theme pre{
+  color: var(--pink);
+}
+
+.dark-theme pre:hover {
+  color: var(--green);
+}
+
+.brackets .dark-theme{
+  color: var(--blue-light);
+}
+
 .brackets {
-  color: var(--blue-light)   ;
+  color: var(--very-dark-grey);
   font-size: 2rem;
+}
+
+.bio-text {
+  white-space: nowrap; /* Empêche le texte de passer à la ligne automatiquement */
+}
+
+@media (max-width: 768px) {
+  .bio-text {
+    white-space: pre-line; /* Permet au texte de passer à la ligne en mode mobile */
+    font-size: 3rem; /* Ajustez la taille de police selon vos besoins */
+  }
+
+  .brackets{
+    font-size: 1.5rem;
+  }
 }

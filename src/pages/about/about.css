@@ -1,8 +1,15 @@
 .about{
-  color: var(--orange);
+  color: var(--very-dark-grey);
 }
 
 span{
-  color: var(--white)
+  color: var(--pink)
 }
 
+.dark-theme .about {
+  color: var(--orange);
+}
+
+.dark-theme span {
+  color: var(--white)
+}

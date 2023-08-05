@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
-import ToggleButton from '../buttons/toggle';
 
 const Navbar = () => {
   const [homeLinkContent, setHomeLinkContent] = useState('</>');

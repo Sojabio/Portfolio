@@ -1,5 +1,4 @@
 .footer {
-  background-color: white;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -23,7 +22,6 @@
 }
 
 .foot-toggle {
-  color: var(--orange);
   position: absolute;
   right: 0; /* Position to the very right */
   cursor: pointer;

@@ -10,7 +10,7 @@ export default function ToggleButton() {
 
   return (
     <>
-      <div className="toggle" onClick={toggleDarkMode}>
+      <div className="button toggle" onClick={toggleDarkMode}>
         {darkMode ? (
           <FontAwesomeIcon icon={faSun} alt="switch to light mode" />
         ) : (

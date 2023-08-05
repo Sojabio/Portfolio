@@ -22,6 +22,7 @@
   --light:  #676B79;
   --white: #f3f3f3;
   --very-dark-grey: #292A2B;
+  --grey: #373b41;
 }
 
 .dark-theme *{
@@ -29,18 +30,27 @@
 }
 
 
+/* Common styles for both light and dark modes */
 a {
-  /* font-weight: bold; */
-  color: var(--purple);
+  color: var(--very-dark-grey); /* Set link color to very dark grey */
   text-decoration: inherit;
+}
+
+a:hover{
+  color: var(--pink);
+}
+
+
+/* Dark mode styles */
+.dark-theme a {
+  color: var(--purple);
   transition: 0.5s;
 }
 
-a:hover {
+.dark-theme a:hover {
   color: var(--green);
   transition: 0.5s;
 }
-
 
 body {
   margin: 0;
@@ -49,23 +59,15 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--white);
+  color: var(--very-dark-grey)
 }
 
 body.dark-theme {
   background-color: var(--very-dark-grey);
+  color: var(--white)
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-} */

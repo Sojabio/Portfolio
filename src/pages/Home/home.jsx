@@ -17,8 +17,9 @@ const Home = () => {
     <>
     <Link to="/About"
       onMouseEnter={handleSojaHover}
-      onMouseLeave={handleSojaLeave}>
-      <pre>&lt;{sojabio}&gt;</pre>
+      onMouseLeave={handleSojaLeave}
+      className="bio-link">
+       <pre className="bio-text">&lt;{sojabio.replace(' ', '\n')}&gt;</pre>
       </Link>
     <Link className="brackets" to="/projects">{"{ portfolio }"}</Link>
     </>

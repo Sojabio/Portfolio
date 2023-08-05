@@ -1,13 +1,20 @@
 .button {
   font-size: 1.5rem;
   cursor: pointer;
-  color:var(--light)
+  color:var(--light);
+  transition: 0.5s;
 }
 
 .button:hover{
+  color: var(--pink);
+  transition: 0.5s;
+}
+
+.dark-theme .button:hover{
   color: var(--green);
 }
 
 .toggle{
   font-size: 1.2rem;
+  color: var(--orange);
 }

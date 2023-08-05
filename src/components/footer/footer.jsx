@@ -9,12 +9,12 @@ const Footer = () => {
     <div className="footer">
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/solene-jabaud/">
+          <a href="https://www.linkedin.com/in/solene-jabaud/" target="_blank">
           <Linkedin/>
           </a>
         </li>
         <li>
-          <a href="https://github.com/Sojabio">
+          <a href="https://github.com/Sojabio" target="_blank">
           <Github/>
           </a>
         </li>
