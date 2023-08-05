@@ -13,3 +13,23 @@ span{
 .dark-theme span {
   color: var(--white)
 }
+
+.concerns {
+  margin-top: 4rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.concerns:hover {
+  color: var(--pink);
+  transition: 0.5s;
+
+}
+
+.concerns ul{
+  list-style: none;
+}
+
+.dark-theme .concerns:hover {
+  color: var(--white);
+}

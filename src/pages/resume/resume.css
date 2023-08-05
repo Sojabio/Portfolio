@@ -67,6 +67,9 @@
     grid-template-columns: 1fr;
     gap: 2vh; /* Reduce gap between sections */
     padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
+
   }
 
   .left-column, .right-column {

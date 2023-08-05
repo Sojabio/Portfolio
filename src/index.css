@@ -33,22 +33,23 @@
 a {
   color: var(--very-dark-grey); /* Set link color to very dark grey */
   text-decoration: inherit;
+  transition: 0.5s;
 }
 
 a:hover{
   color: var(--pink);
+  transition: 0.5s;
 }
 
 
 /* Dark mode styles */
 .dark-theme a {
   color: var(--purple);
-  transition: 0.5s;
 }
 
 .dark-theme a:hover {
   color: var(--green);
-  transition: 0.5s;
+
 }
 
 body {
