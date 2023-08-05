@@ -9,7 +9,7 @@ const Projects = ({ projectsList }) => {
   console.log('ProjectsList prop:', projectsList);
 
   if (!projectsList || !projectsList.data) {
-    return <p>Loading...</p>;
+    return <p>en construction...</p>;
   }
 
   const settings = {
