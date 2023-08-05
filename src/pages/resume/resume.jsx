@@ -56,11 +56,19 @@ const Resume = () => {
             <ul>
               <li>enseignement du chinois, niveau 2nde à BTS -</li>
             </ul>
+        <div>
+          <h3 className="technos"> technologies </h3>
+            <ul>
+              <li><span>backend : </span>ruby, rails, postgreSQL, regex, rspec</li>
+              <li><span>frontend : </span>html, CSS, bootstrap, javaScript, react</li>
+              <li><span>api : </span>stripe, mailjet, devise, strapi</li>
+              <li><span>collaboration : </span>Git, Github, Trello, Notion, LiveShare on VSCode</li>
+              <li><span>autre : </span>suite Office, LaTeX, Moodle, Pronote, Trados, OmegaT</li>
+
+            </ul>
         </div>
       </div>
-      <div className="technos">
-        <p> technos : ligne avec toutes les technos que je maîtrise et j'en maîtrise vraiment bcp parce que je suis super fortiche</p>
-      </div>
+      </div >
     </div>
 
 
