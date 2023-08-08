@@ -1,4 +1,5 @@
 import './caravan.css'
+import {Link} from 'react-router-dom'
 import caravanImage from '/src/assets/images/caravan.png';
 import rechercheImage from '/src/assets/images/recherche.png';
 import dashboardImage from '/src/assets/images/dashboard.png';
@@ -34,7 +35,7 @@ const Kiddens = () => {
             </ul>
           </div>
           <div className="arrow">
-            <a href="/projects">{"<"}</a>
+            <Link to="/projects">{"<"}</Link>
           </div>
         </div>
         <div className="right-column">
