@@ -1,18 +1,20 @@
 .project-title{
-  font-size: 3rem;
-  margin-top: -1rem;
+  display: flex;
+  justify-content: flex-start;
 }
 
+#github-project{
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+h2 {
+  font-size: 3rem !important;
+}
 .project-columns {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 1vh;
-  font-size: 0.9rem;
-}
-
-.technos {
-  margin-top: -1rem;
-  font-size: 0.7rem;
+  gap: 10vh;
 }
 
 .left-column{
@@ -25,7 +27,7 @@
   display: flex;
   flex-direction: column;
   text-align: flex-start;
-  margin-top: 1rem;
+  margin-top: 2rem;
   max-height: calc(100vh - 2rem);
   overflow-y: auto;
 }

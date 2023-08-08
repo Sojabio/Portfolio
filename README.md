@@ -22,3 +22,7 @@ Currently, two official plugins are available:
 - [x] hébergement sur vercel
 - [x] hébergement de l'API pour la donner à vercel
 - [ ] Bonus : la description n'est plus un markdown mais un array de components
+
+TOUDOU :
+- [] ajuster marge top sur grand écran dans project
+- [] ajouter github sur projet caravan

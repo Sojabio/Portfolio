@@ -1,5 +1,5 @@
 .resume-container {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   gap: 10vh; /* Gap between columns */

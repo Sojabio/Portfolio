@@ -2,6 +2,7 @@ pre{
   font-size: 5rem;
   transition: 0.5s;
   color: var(--very-dark-grey);
+  padding-top: 5rem;
 }
 
 pre:hover {
