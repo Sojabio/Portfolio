@@ -1,46 +1,23 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import Slider from 'react-slick';
 import './projects.css'
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 
-const Projects = ({ projectsList }) => {
-  console.log('ProjectsList prop:', projectsList);
 
-  if (!projectsList || !projectsList.data) {
-    return <p>en construction...</p>;
-  }
+const Projects = () => {
 
-  const settings = {
-    className: 'center',
-    centerMode: true,
-    infinite: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    speed: 500,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
-  return (
-    <div>
-      <h2>{`{mes projets}`}</h2>
-      <Slider {...settings}>
-        {projectsList.data.map((project, index) => (
-          <div key={index}>
-            <Link to={`/projects/${project.attributes.slug}`}>{project.attributes.name}</Link>
+    return (
+      <>
+      <div className="card">
+          <img src='src/assets/images/caravan.png' />
+          <div className="card-body">
+            <h2>{"[CaraVan]"}</h2>
+            <p className="card-text">Application de location de vans</p>
+            <h5>Ruby on Rails</h5>
+            <Link to="/projects/caravan" className="see-more-button">en savoir plus</Link>
           </div>
-        ))}
-      </Slider>
-    </div>
-  );
-};
+        </div>
+     </>
+    );
+  }
 
 export default Projects;

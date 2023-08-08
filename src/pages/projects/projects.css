@@ -1,10 +1,119 @@
-h2 {
-  position: fixed;
-  top: 25%;
+.cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  width: 24em;
+  border-radius: 0.3em;
+  margin: 1em;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+  transition: all ease 200ms;
+}
+
+.dark-theme .card {
+  background: #756A75;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .card-text {
+  color: var(--grey);
+}
+
+.dark-theme .card-text {
+  background-color: #756A75;
+  color: var(--very-dark-grey);
+}
+
+.card h5 {
+  color: var(--very-dark-grey);
+  font-size: 0.7em;
+  letter-spacing: 0.04em;
+  margin: 1.4em 0 0 0;
+  font-weight: 400;
+}
+
+.dark-theme .card h5 {
+  background-color: #756A75;
+  color: var(--white);
+}
+
+.card-body {
+  padding: 1.2em;
+  position: relative;
+}
+
+.dark-theme .card-body {
+  background-color: #756A75;
+}
+
+.card h2 {
+  color: #222;
+  margin-top: -0.2em;
+  line-height: 1.4;
+  font-size: 1.3em;
+  font-weight: 500;
+  transition: all ease-in 100ms;
+}
+
+.dark-theme .card h2 {
+  background-color: #756A75;
+  color: var(--orange);
+}
+
+.card:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity and color as needed */
+  border-radius: inherit;
+  z-index: 1; /* Place the pseudo-element behind the card content */
+}
+
+.card:hover .see-more-button {
+  display: block;
+  z-index: 2; /* Place the button above the dimmed overlay */
+}
+
+.see-more-button {
+  font-family: 'Source Code Pro', monospace;
+  display: none;
+  background-color: transparent;
+  color: var(--white);
+  border-color: var(--white) ;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
-  height: 10vh;
-  text-align: center;
-  color: rgb(77, 193, 77);
-  font-size: 2rem;
+  transform: translateX(-50%);
+  bottom: 90%;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+.dark-theme .see-more-button{
+  color: var(--white);
+  background-color: transparent;
+}
+.see-more-button:hover{
+  background-color: var(--white);
+  color: var(--very-dark-grey) !important;
+  font-weight: 900;
 }

@@ -34,13 +34,19 @@ const Resume = () => {
               <li>- préparation au concours de l’École Normale Supérieure de Lyon</li>
               <li>- reçue en qualité d'élève fonctionnaire</li>
             </ul>
+          <h3 className="left-column"></h3>
+            <ul>
+              <h3>langues</h3>
+              <li><span id="light">chinois, anglais : </span>courant</li>
+              <li><span id="light">allemand, russe : </span>intermédiaire</li>
+            </ul>
           </div>
         </div>
         <div className="right-column">
           <h3>expérience professionnelle </h3>
           <h4> Traductrice indépendante <span>2007-2009</span></h4>
             <ul>
-              <li><marquee behavior="" direction=""></marquee>missions variées pour Mophradat, Perspectives chinoises, revue Café -
+              <li>missions variées pour Mophradat, Perspectives chinoises, revue Café -
               </li>
               <li>gestion d’une auto-entreprise -</li>
               <li>communication avec les clients et prospection -</li>
@@ -59,11 +65,11 @@ const Resume = () => {
         <div>
           <h3 className="technos"> technologies </h3>
             <ul>
-              <li><span>backend : </span>ruby, rails, postgreSQL, regex, rspec</li>
-              <li><span>frontend : </span>html, CSS, bootstrap, javaScript, react</li>
-              <li><span>api : </span>stripe, mailjet, devise, strapi</li>
-              <li><span>collaboration : </span>Git, Github, Trello, Notion, LiveShare on VSCode</li>
-              <li><span>autre : </span>suite Office, LaTeX, Moodle, Pronote, Trados, OmegaT</li>
+              <li><span id="light">backend : </span>ruby, rails, postgreSQL, regex, rspec</li>
+              <li><span id="light">frontend : </span>html, CSS, bootstrap, javaScript, react</li>
+              <li><span id="light">api : </span>stripe, mailjet, devise, strapi</li>
+              <li><span id="light">collaboration : </span>Git, Github, Trello, Notion, LiveShare on VSCode</li>
+              <li><span id="light">autre : </span>suite Office, LaTeX, Moodle, Pronote, Trados, OmegaT</li>
 
             </ul>
         </div>

@@ -1,6 +1,6 @@
 import {useParams} from 'react-router-dom'
 
-const Project = ({projectsList}) => {
+const Projectapi = ({projectsList}) => {
 
   const {slug} = useParams();
 
@@ -24,4 +24,4 @@ const Project = ({projectsList}) => {
 
 }
 
-export default Project;
+export default Projectapi;

@@ -5,7 +5,10 @@ import Home from './pages/Home/home';
 import About from './pages/about/about';
 import Resume from './pages/resume/resume';
 import Projects from './pages/projects/projects';
-import Project from './pages/projects/project';
+import Caravan from './pages/projects/caravan';
+import Kiddens from './pages/projects/kiddens';
+// import Projectsapi from './pages/projectsapi/projectsapi';
+// import Projectapi from './pages/projectsapi/projectapi';
 import Footer from './components/footer/footer';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import { DarkModeContext } from './contexts/DarkModeProvider';
@@ -49,8 +52,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/projects" element={<Projects projectsList={projectsList}/>} />
-            <Route path="/projects/:slug" element={<Project projectsList={projectsList}/>} />
+            <Route path="/projects" element={<Projects />}/>
+            <Route path="/projects/caravan" element={<Caravan />}/>
+            <Route path="/projects/kiddens" element={<Kiddens />}/>
+            {/* <Route path="/projects" element={<Projectsapi projectsList={projectsList}/>} /> */}
+            {/* <Route path="/projects/:slug" element={<Projectapi projectsList={projectsList}/>} /> */}
           </Routes>
         </main>
         <Footer/>
