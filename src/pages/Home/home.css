@@ -32,9 +32,11 @@ pre:hover {
 
 @media (max-width: 768px) {
   .bio-text {
-    white-space: pre-line; /* Permet au texte de passer à la ligne en mode mobile */
-    font-size: 3rem; /* Ajustez la taille de police selon vos besoins */
+    white-space: pre-line;
+    font-size: 3rem;
+    padding-top: 7rem;
   }
+
 
   .brackets{
     font-size: 1.5rem;

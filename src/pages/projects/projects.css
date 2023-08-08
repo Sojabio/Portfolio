@@ -127,6 +127,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 50%;
   }
 
   .card {
@@ -153,16 +154,17 @@
     background-color: transparent;
     color: var(--white);
     border-color: var(--white);
-    padding: 0.5em 1em;
+    padding: 0.5em 0.5em;
     border-radius: 0.3em;
     cursor: pointer;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 50%;
+    bottom: 35%;
     border-style: solid;
     border-width: 0.5px;
     text-align: center;
+    font-size:0.6rem;
   }
 
   .dark-theme .see-more-button {
