@@ -1,0 +1,57 @@
+.project-title{
+  font-size: 3rem;
+  margin-top: -1rem;
+}
+
+.project-columns {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1vh;
+  font-size: 0.9rem;
+}
+
+.technos {
+  margin-top: -1rem;
+  font-size: 0.7rem;
+}
+
+.left-column{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.right-column{
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  margin-top: 1rem;
+  max-height: calc(100vh - 2rem); 
+  overflow-y: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+span{
+  color: var(--)
+}
+
+.characteristics{
+  margin-top: 2rem;
+}
+
+.image-container img{
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  max-height: 100%;
+  overflow: auto;
+  display: block;
+  margin: 0 auto;
+}

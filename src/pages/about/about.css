@@ -1,5 +1,6 @@
 .about{
   color: var(--very-dark-grey);
+  margin-top: 5rem;
 }
 
 span{
@@ -23,7 +24,6 @@ span{
 .concerns:hover {
   color: var(--pink);
   transition: 0.5s;
-
 }
 
 .concerns ul{

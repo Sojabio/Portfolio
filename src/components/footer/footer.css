@@ -11,6 +11,10 @@
   background-color: var(--white);
 }
 
+.dark-theme .footer{
+  background-color: var(--very-dark-grey);
+}
+
 .footer ul {
   display: flex;
   list-style: none;
@@ -32,4 +36,10 @@
 
 .foot-toggle:hover {
   color: var(--green);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 15vh;
+  }
 }

@@ -18,3 +18,9 @@
   font-size: 1.2rem;
   color: var(--orange);
 }
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 1.2rem;
+  }
+}
