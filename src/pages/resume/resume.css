@@ -1,9 +1,8 @@
 .resume-container {
-  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   gap: 10vh; /* Gap between columns */
-  font-size: 0.7rem;
+  font-size: 0.84rem;
 }
 
 .resume-container h4 {
@@ -47,6 +46,13 @@
   text-align: left;
 }
 
+.arrow{
+  margin-top: 2rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
 
 .dark-theme .resume-container li {
   color: var(--orange);
@@ -58,6 +64,7 @@
   flex-direction: column;
   text-align: right;
 }
+
 
 
 
@@ -76,11 +83,6 @@
     text-align: left;
   }
 
-}
-
-.technos {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 #light {

@@ -24,5 +24,6 @@ Currently, two official plugins are available:
 - [ ] Bonus : la description n'est plus un markdown mais un array de components
 
 TOUDOU :
-- [] ajuster marge top sur grand écran dans project
-- [] ajouter github sur projet caravan
+- dans la page caravan, quand on clique sur la flèche de retour, le mot "retour" apparaît
+- rendre la transition entre sj et dev plus smooth
+- gérer les backgrounds rémanents dans le passage au darkmode

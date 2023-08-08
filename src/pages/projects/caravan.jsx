@@ -12,7 +12,7 @@ const Caravan = () => {
         <div className="left-column">
           <div className="project-title">
               <h2>CaraVan</h2>
-              <a id="github-project" href="https://github.com/Sojabio" target="_blank">
+              <a id="github-project" href="https://github.com/Demonelfes/Caravan_THP_Project" target="_blank">
               <Github/>
               </a>
           </div>
@@ -32,6 +32,9 @@ const Caravan = () => {
               <li>- tableau de bord administrateur</li>
               <li>- envoi de courriels automatisé</li>
             </ul>
+          </div>
+          <div className="arrow">
+            <a href="/projects">{"<"}</a>
           </div>
         </div>
         <div className="right-column">
