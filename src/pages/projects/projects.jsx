@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import './projects.css'
-import caravanImage from '/src/assets/images/caravan.png';
-
 
 const Projects = () => {
 
@@ -18,7 +16,7 @@ const Projects = () => {
           <Link to="/projects/caravan" className="see-more-button">en savoir plus</Link>
         </div>
         <div className="card">
-          <img src={caravanImage} alt="capture d'écran du site caravan"/>
+          <img src='src/assets/images/caravan.png' alt="capture d'écran du site caravan"/>
           <div className="card-body">
             <h2>{"[The Kiddens Project]"}</h2>
             <p className="card-text">Application de vente de photos de chatons</p>
