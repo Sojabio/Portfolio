@@ -1,7 +1,7 @@
 .resume-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  gap: 10vh; /* Gap between columns */
+  grid-template-columns: 1fr 1fr;
+  gap: 10vh;
   font-size: 0.84rem;
 }
 
@@ -56,7 +56,6 @@
 
 .dark-theme .resume-container li {
   color: var(--orange);
-
 }
 
 .right-column {
@@ -65,22 +64,26 @@
   text-align: right;
 }
 
-
+.technos {
+  padding-bottom: 1rem;
+}
 
 
 @media (max-width: 768px) {
   .resume-container {
     font-size: 0.7rem;
     grid-template-columns: 1fr;
-    gap: 2vh; /* Reduce gap between sections */
+    gap: 2vh;
     padding: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem
 
   }
 
-  .left-column, .right-column {
-    text-align: left;
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
   }
 
 }

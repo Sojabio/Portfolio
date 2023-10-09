@@ -70,7 +70,6 @@ const Resume = () => {
               <li><span id="light">api : </span>stripe, mailjet, devise, strapi</li>
               <li><span id="light">collaboration : </span>Git, Github, Trello, Notion, LiveShare on VSCode</li>
               <li><span id="light">autre : </span>suite Office, LaTeX, Moodle, Pronote, Trados, OmegaT</li>
-
             </ul>
         </div>
       </div>

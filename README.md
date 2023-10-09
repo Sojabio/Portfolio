@@ -27,3 +27,5 @@ TOUDOU :
 - dans la page caravan, quand on clique sur la flèche de retour, le mot "retour" apparaît
 - rendre la transition entre sj et dev plus smooth
 - gérer les backgrounds rémanents dans le passage au darkmode
+- dans le cv, problème de marges en haut des technos
+- sur la page projects, arrivée pas centrée sur le titre 
