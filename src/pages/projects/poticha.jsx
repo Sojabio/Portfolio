@@ -23,7 +23,7 @@ const Poticha = () => {
             <p><span>Le Pôticha </span> est un site réalisé pour une maison d'édition associative qui permet :</p>
             <ul>
               <li>- de se renseigner sur les activités de l'association</li>
-              <li>- de contacter les auteurices et l'association </li>
+              <li>- de souscrire à un abonnement </li>
             </ul>
           </div>
           <div className="characteristics">
