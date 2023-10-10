@@ -12,7 +12,8 @@ import Poticha from './pages/projects/poticha';
 // import Projectsapi from './pages/projectsapi/projectsapi';
 // import Projectapi from './pages/projectsapi/projectapi';
 import Footer from './components/footer/footer';
-import {BrowserRouter,Routes,Route} from 'react-router-dom';
+// import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { DarkModeContext } from './contexts/DarkModeProvider';
 
 function App() {
@@ -47,7 +48,7 @@ function App() {
 
   return (
     <div id="root" className={`app ${darkMode && 'dark-theme'}`}>
-      <BrowserRouter>
+      <Router>
         <Navbar/>
         <main>
           <Routes>
@@ -64,7 +65,7 @@ function App() {
           </Routes>
         </main>
         <Footer/>
-      </BrowserRouter>
+      </Router>
     </div>
   )
 }
