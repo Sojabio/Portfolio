@@ -44,8 +44,8 @@ const Caravan = () => {
 
             </ul>
           </div>
-          <div className="arrow">
-            <Link to="/projects">{"<"}</Link>
+          <div>
+            <Link to="/projects" className="arrow">{"<"}</Link>
           </div>
         </div>
         <div className="right-column">

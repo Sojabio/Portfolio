@@ -41,8 +41,8 @@ const Poticha = () => {
               <li>- Devise | Cloudinary | Mailjet | PostgreSQL </li>
             </ul>
           </div>
-          <div className="arrow">
-            <Link to="/projects">{"<"}</Link>
+          <div>
+            <Link className="arrow" to="/projects">{"<"}</Link>
           </div>
         </div>
         <div className="right-column">

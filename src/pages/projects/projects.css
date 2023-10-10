@@ -13,7 +13,6 @@
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
-  transition: all ease 200ms;
 }
 
 .dark-theme .card {
@@ -67,7 +66,7 @@
   line-height: 1.4;
   font-size: 1.3em;
   font-weight: 500;
-  transition: all ease-in 100ms;
+  transition: color;
 }
 
 .dark-theme .card h2 {
@@ -82,14 +81,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity and color as needed */
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: inherit;
-  z-index: 1; /* Place the pseudo-element behind the card content */
+  z-index: 1;
 }
 
 .card:hover .see-more-button {
   display: block;
-  z-index: 2; /* Place the button above the dimmed overlay */
+  z-index: 2;
 }
 
 .see-more-button {
