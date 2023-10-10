@@ -1,8 +1,8 @@
-import './caravan.css'
+import './style.css'
 import {Link} from 'react-router-dom'
-import caravanImage from '/src/assets/images/caravan.png';
-import rechercheImage from '/src/assets/images/recherche.png';
-import dashboardImage from '/src/assets/images/dashboard.png';
+import landing from '/src/assets/images/kiddens/kiddens_accueil.jpg';
+import dashboard from '/src/assets/images/kiddens/kiddens_dashboard.jpg';
+import cart from '/src/assets/images/kiddens/kiddens_cart.jpg';
 import Github from '/src/components/buttons/github';
 
 
@@ -12,13 +12,13 @@ const Kiddens = () => {
       <div className="project-columns">
         <div className="left-column">
           <div className="project-title">
-              <h2>CaraVan</h2>
-              <a id="github-project" href="https://github.com/Demonelfes/Caravan_THP_Project" target="_blank">
+              <h2>The Kiddens Project</h2>
+              <a id="github-project" href="https://github.com/Sojabio/TheKiddensProject" target="_blank">
               <Github/>
               </a>
           </div>
           <div>
-            <p><span>CaraVan</span> est une plateforme de location de vans qui permet :</p>
+            <p><span>The Kiddens Project</span> est une plateforme fictive de vente de photos de chatons qui permet :</p>
             <ul>
               <li>- la location de vans entre particuliers</li>
               <li>- la location de vans mis à disposition par des professionnels </li>
@@ -40,9 +40,9 @@ const Kiddens = () => {
         </div>
         <div className="right-column">
           <div className="image-container">
-              <img src={caravanImage} alt="page d'accueil du site caravan"/>
-              <img src={rechercheImage} alt="recherches sur le site caravan"/>
-              <img src={dashboardImage} alt="recherches sur le site caravan"/>
+              <img src={landing} alt="page d'accueil du site caravan"/>
+              <img src={dashboard} alt="recherches sur le site caravan"/>
+              <img src={cart} alt="recherches sur le site caravan"/>
           </div>
         </div>
       </div>

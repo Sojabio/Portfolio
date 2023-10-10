@@ -1,8 +1,8 @@
-import './caravan.css'
+import './style.css'
 import {Link} from 'react-router-dom'
-import caravanImage from '/src/assets/images/caravan.png';
-import rechercheImage from '/src/assets/images/recherche.png';
-import dashboardImage from '/src/assets/images/dashboard.png';
+import caravanImage from '/src/assets/images/caravan/caravan.png';
+import rechercheImage from '/src/assets/images/caravan/recherche.png';
+import dashboardImage from '/src/assets/images/caravan/dashboard.png';
 import Github from '/src/components/buttons/github';
 
 

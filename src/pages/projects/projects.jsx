@@ -7,7 +7,7 @@ const Projects = () => {
     return (
       <div className="cards">
         <div className="card">
-          <img src='src/assets/images/caravan.png' />
+          <img src='src/assets/images/caravan/caravan.png' />
           <div className="card-body">
             <h2>{"[CaraVan]"}</h2>
             <p className="card-text">Application de location de vans</p>
@@ -16,7 +16,7 @@ const Projects = () => {
           <Link to="/projects/caravan" className="see-more-button">en savoir plus</Link>
         </div>
         <div className="card">
-          <img src='src/assets/images/caravan.png' alt="capture d'écran du site caravan"/>
+          <img src='src/assets/images/kiddens/kiddens_accueil.jpg' alt="capture d'écran du site the kiddens project"/>
           <div className="card-body">
             <h2>{"[The Kiddens Project]"}</h2>
             <p className="card-text">Application de vente de photos de chatons</p>
