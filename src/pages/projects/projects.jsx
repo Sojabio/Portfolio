@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import caravanImage from '/src/assets/images/caravan/caravan.png';
-import kiddensImage from '/src/assets/images/kiddents/kiddens_accueil.jpg'
+import kiddensImage from '/src/assets/images/kiddens/kiddens_accueil.jpg'
 import './projects.css'
 
 const Projects = () => {
