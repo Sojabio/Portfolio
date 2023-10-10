@@ -20,16 +20,15 @@ const Kiddens = () => {
           <div>
             <p><span>The Kiddens Project</span> est une plateforme fictive de vente de photos de chatons qui permet :</p>
             <ul>
-              <li>- la location de vans entre particuliers</li>
-              <li>- la location de vans mis à disposition par des professionnels </li>
+              <li>- la mise à disposition de photos de chatons</li>
+              <li>- l'achat de photos de chatons </li>
             </ul>
           </div>
           <div className="characteristics">
             <p>Caractéristiques principales : </p>
             <ul>
-              <li>- recherche multicritères</li>
-              <li>- calendrier des disponibilités</li>
-              <li>- géolocalisation des véhicules</li>
+              <li>- système de paiement via stripe </li>
+              <li>- système d'authentification </li>
               <li>- tableau de bord administrateur</li>
               <li>- envoi de courriels automatisé</li>
             </ul>

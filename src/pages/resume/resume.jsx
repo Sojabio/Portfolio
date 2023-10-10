@@ -44,7 +44,7 @@ const Resume = () => {
         </div>
         <div className="right-column">
           <h3>expérience professionnelle </h3>
-          <h4> Traductrice indépendante <span>2007-2009</span></h4>
+          <h4> Traductrice indépendante <span>2021-2023</span></h4>
             <ul>
               <li>missions variées pour Mophradat, Perspectives chinoises, revue Café -
               </li>
