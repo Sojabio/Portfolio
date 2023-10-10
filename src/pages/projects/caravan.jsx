@@ -25,13 +25,23 @@ const Caravan = () => {
             </ul>
           </div>
           <div className="characteristics">
-            <p>Caractéristiques principales : </p>
+            <p><span>Caractéristiques principales : </span></p>
             <ul>
               <li>- recherche multicritères</li>
               <li>- calendrier des disponibilités</li>
               <li>- géolocalisation des véhicules</li>
-              <li>- tableau de bord administrateur</li>
+              <li>- tableau d'administration</li>
               <li>- envoi de courriels automatisé</li>
+            </ul>
+          </div>
+          <div className="characteristics">
+            <p><span>Technologies :</span> </p>
+            <ul>
+              <li>- Ruby on Rails</li>
+              <li>- Devise | Mailjet | Bootstrap </li>
+              <li>- Stripe | Geocoder | Mapkick </li>
+              <li>- Mapbox | Friendly_id | Google cloud storage </li>
+
             </ul>
           </div>
           <div className="arrow">
@@ -42,7 +52,7 @@ const Caravan = () => {
           <div className="image-container">
               <img src={caravanImage} alt="page d'accueil du site caravan"/>
               <img src={rechercheImage} alt="recherches sur le site caravan"/>
-              <img src={dashboardImage} alt="recherches sur le site caravan"/>
+              <img src={dashboardImage} alt="tableau d'administration du site caravan"/>
           </div>
         </div>
       </div>

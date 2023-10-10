@@ -42,6 +42,10 @@ span{
   color: var(--pink)
 }
 
+.dark-theme span{
+  color: var(--orange);
+}
+
 .characteristics{
   margin-top: 2rem;
 }

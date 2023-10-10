@@ -25,12 +25,19 @@ const Kiddens = () => {
             </ul>
           </div>
           <div className="characteristics">
-            <p>Caractéristiques principales : </p>
+            <p> <span> Caractéristiques principales : </span></p>
             <ul>
               <li>- système de paiement via stripe </li>
               <li>- système d'authentification </li>
-              <li>- tableau de bord administrateur</li>
+              <li>- tableau d'administration</li>
               <li>- envoi de courriels automatisé</li>
+            </ul>
+          </div>
+          <div className="characteristics">
+            <p><span>Technologies :</span> </p>
+            <ul>
+              <li>- Ruby on Rails</li>
+              <li>- Devise | Mailjet | Bootstrap | Stripe</li>
             </ul>
           </div>
           <div className="arrow">
@@ -39,9 +46,9 @@ const Kiddens = () => {
         </div>
         <div className="right-column">
           <div className="image-container">
-              <img src={landing} alt="page d'accueil du site caravan"/>
-              <img src={dashboard} alt="recherches sur le site caravan"/>
-              <img src={cart} alt="recherches sur le site caravan"/>
+              <img src={landing} alt="page d'accueil du site kiddens"/>
+              <img src={dashboard} alt="tableau d'administration du site kiddens"/>
+              <img src={cart} alt="panier d'achat sur le site kiddens"/>
           </div>
         </div>
       </div>

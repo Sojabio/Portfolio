@@ -7,6 +7,8 @@ import Resume from './pages/resume/resume';
 import Projects from './pages/projects/projects';
 import Caravan from './pages/projects/caravan';
 import Kiddens from './pages/projects/kiddens';
+import Immotep from './pages/projects/immotep';
+import Poticha from './pages/projects/poticha';
 // import Projectsapi from './pages/projectsapi/projectsapi';
 // import Projectapi from './pages/projectsapi/projectapi';
 import Footer from './components/footer/footer';
@@ -55,6 +57,8 @@ function App() {
             <Route path="/projects" element={<Projects />}/>
             <Route path="/projects/caravan" element={<Caravan />}/>
             <Route path="/projects/kiddens" element={<Kiddens />}/>
+            <Route path="/projects/immotep" element={<Immotep />}/>
+            <Route path="/projects/poticha" element={<Poticha />}/>
             {/* <Route path="/projects" element={<Projectsapi projectsList={projectsList}/>} /> */}
             {/* <Route path="/projects/:slug" element={<Projectapi projectsList={projectsList}/>} /> */}
           </Routes>
