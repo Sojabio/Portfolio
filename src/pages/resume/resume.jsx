@@ -29,7 +29,7 @@ const Resume = () => {
               <li>- apprentissage de la recherche universitaire : autonomie et rigueur</li>
               <li>- échanges académiques à Taiwan et en Chine</li>
             </ul>
-          <h4><span>2007-2009</span> Classe préparatoire aux grandes écoles, filiaire littéraire</h4>
+          <h4><span>2007-2009</span> Classe préparatoire aux grandes écoles, filière littéraire</h4>
             <ul>
               <li>- préparation au concours de l’École Normale Supérieure de Lyon</li>
               <li>- reçue en qualité d'élève fonctionnaire</li>
@@ -51,14 +51,14 @@ const Resume = () => {
               <li>gestion d’une auto-entreprise -</li>
               <li>communication avec les clients et prospection -</li>
             </ul>
-          <h4>Directrice adjointe de la section de chinois, université Toulouse II <span>2022-2018</span></h4>
+          <h4>Directrice adjointe de la section de chinois, université Toulouse II <span>2018-2022</span></h4>
             <ul>
               <li>coordination pédagogique, gestion administrative, recrutement -</li>
               <li>enseignement de l'histoire de la Chine ancienne et contemporaine -</li>
               <li>enseignement du chinois classique, chinois des affaires, traduction, grammaire -</li>
               <li>niveaux L1 à M2 -</li>
             </ul>
-          <h4>Enseignante de chinois dans le secondaire  <span>2018-2016</span></h4>
+          <h4>Enseignante de chinois dans le secondaire  <span>2016-2018</span></h4>
             <ul>
               <li>enseignement du chinois, niveau 2nde à BTS -</li>
             </ul>
