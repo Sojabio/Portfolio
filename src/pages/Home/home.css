@@ -3,6 +3,7 @@ pre{
   transition: 0.5s;
   color: var(--very-dark-grey);
   padding-top: 5rem;
+  transition: color;
 }
 
 pre:hover {
@@ -25,10 +26,11 @@ pre:hover {
 .brackets {
   color: var(--very-dark-grey);
   font-size: 2rem;
+  transition: color;
 }
 
 .bio-text {
-  white-space: nowrap; /* Empêche le texte de passer à la ligne automatiquement */
+  white-space: nowrap;
 }
 
 @media (max-width: 768px) {

@@ -30,3 +30,7 @@ nav li {
 li:first-child {
   margin-right: auto;
 }
+
+.navitem {
+  transition: color;
+}

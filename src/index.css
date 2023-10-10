@@ -24,16 +24,19 @@
   --grey: #373b41;
 }
 
-.dark-theme *{
-  background-color: var(--very-dark-grey);
-}
-
-
-/* Common styles for both light and dark modes */
 a {
-  color: var(--very-dark-grey); /* Set link color to very dark grey */
+  color: var(--very-dark-grey);
   text-decoration: inherit;
   transition: 0.5s;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--white);
+  color: var(--very-dark-grey);
 }
 
 a:hover{
@@ -49,17 +52,10 @@ a:hover{
 
 .dark-theme a:hover {
   color: var(--green);
-
 }
 
-body {
-  margin: 0;
-  display: flex;
-  /* place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: var(--white);
-  color: var(--very-dark-grey);
+.dark-theme *{
+  background-color: var(--very-dark-grey);
 }
 
 body.dark-theme {

@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav>
       <ul>
         <li >
-          <Link id="home"
+          <Link className="navitem" id="home"
             to="/"
             onMouseEnter={handleHomeLinkHover}
             onMouseLeave={handleHomeLinkLeave}
@@ -26,10 +26,10 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/About">à propos</Link>
+          <Link className="navitem" to="/About">à propos</Link>
         </li>
         <li>
-          <Link to="/Resume">cv</Link>
+          <Link className="navitem" to="/Resume">cv</Link>
         </li>
       </ul>
     </nav>
