@@ -29,7 +29,7 @@
 
 .foot-toggle {
   position: absolute;
-  right: 0; /* Position to the very right */
+  right: 0;
   cursor: pointer;
   padding-right: 1rem;
 }

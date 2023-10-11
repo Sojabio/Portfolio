@@ -11,8 +11,8 @@ span{
   color: var(--orange);
 }
 
-.dark-theme span {
-  color: var(--white)
+.dark-theme .about span {
+  color: var(--white);
 }
 
 .concerns {
