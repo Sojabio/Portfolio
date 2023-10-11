@@ -70,7 +70,7 @@
   padding-bottom: 1rem;
 }
 
-@media (min-width: 769px){
+@media (min-width: 769px) and (max-width: 1200px){
   .resume-container {
     font-size: 0.7rem;
   }
