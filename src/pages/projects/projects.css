@@ -150,9 +150,9 @@
 
   .see-more-button {
     display: block;
-    background-color: transparent;
-    color: var(--white);
-    border-color: var(--white);
+    background-color: white;
+    color: var(--very-dark-grey);
+    border-color: var(--very-dark-grey);
     padding: 0.5em 0.5em;
     border-radius: 0.3em;
     cursor: pointer;
@@ -167,8 +167,9 @@
   }
 
   .dark-theme .see-more-button {
-    color: var(--white);
-    background-color: transparent;
+    color: var(--pink);
+    background-color:  var(--very-dark-grey);
+    border-color: var(--pink)
   }
 
   .see-more-button:hover {
