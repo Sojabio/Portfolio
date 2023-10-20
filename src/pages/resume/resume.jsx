@@ -49,7 +49,7 @@ const Resume = () => {
               <li>missions variées pour Mophradat, Perspectives chinoises, revue Café -
               </li>
               <li>gestion d’une auto-entreprise -</li>
-              <li>communication avec les clients et prospection -</li>
+              <li>communication avec la clientèle et prospection -</li>
             </ul>
           <h4>Co-direction de la section de chinois, université Toulouse II <span>2018-2022</span></h4>
             <ul>
