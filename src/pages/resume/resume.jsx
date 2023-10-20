@@ -14,12 +14,12 @@ const Resume = () => {
               <li>- permet l'obtention d'un titre RNCP niveau 5 Dev web et mobile </li>
               <li>- apprentissage en autonomie de technologies frontend et backend</li>
             </ul>
-          <h4><span>2015-2014</span> Agrégation de chinois</h4>
+          <h4><span>2014-2015</span> Agrégation de chinois</h4>
             <ul>
               <li>- concours sélectif de recrutement des enseignants attestant d'une connaissance avancée de la langue, de l'histoire et de la littérature chinoise
               </li>
             </ul>
-          <h4><span>2016-2013</span> CAP et Brevet des Métiers d'Art ébéniste</h4>
+          <h4><span>2013-2016</span> CAP et Brevet des Métiers d'Art ébéniste</h4>
             <ul>
               <li>- apprentissage technique, résolution de problème et travaux de groupe</li>
               <li>- mise en pratique au cours de nombreux stages en entreprise</li>
@@ -44,21 +44,21 @@ const Resume = () => {
         </div>
         <div className="right-column">
           <h3>expérience professionnelle </h3>
-          <h4> Traductrice indépendante <span>2021-2023</span></h4>
+          <h4> Traduction anglais-chinois vers le français <span>2021-2023</span></h4>
             <ul>
               <li>missions variées pour Mophradat, Perspectives chinoises, revue Café -
               </li>
               <li>gestion d’une auto-entreprise -</li>
               <li>communication avec les clients et prospection -</li>
             </ul>
-          <h4>Directrice adjointe de la section de chinois, université Toulouse II <span>2018-2022</span></h4>
+          <h4>Co-direction de la section de chinois, université Toulouse II <span>2018-2022</span></h4>
             <ul>
               <li>coordination pédagogique, gestion administrative, recrutement -</li>
               <li>enseignement de l'histoire de la Chine ancienne et contemporaine -</li>
-              <li>enseignement du chinois classique, chinois des affaires, traduction, grammaire -</li>
+              <li>enseignement du chinois classique, chinois des affaires, grammaire -</li>
               <li>niveaux L1 à M2 -</li>
             </ul>
-          <h4>Enseignante de chinois dans le secondaire  <span>2016-2018</span></h4>
+          <h4>Enseignement du chinois dans le secondaire  <span>2016-2018</span></h4>
             <ul>
               <li>enseignement du chinois, niveau 2nde à BTS -</li>
             </ul>
