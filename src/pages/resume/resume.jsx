@@ -8,6 +8,12 @@ const Resume = () => {
         <div>
           <div className="left-column">
           <h3>formation</h3>
+          <h4><span>2024-2025</span> Wild Code School</h4>
+            <ul>
+              <li>- Formation en alternance, équivalent bac + 3/4</li>
+              <li>- Obtention du titre RNCP Concepteur Développeur d’Application </li>
+              <li>- Sécurité, algorithmie, tests, CI/CD, conteneurisation</li>
+            </ul>
           <h4><span>2023</span> The Hacking Project, parcours Dev ++</h4>
             <ul>
               <li>- formation intensive de huit mois (1200 h)</li>
@@ -37,13 +43,19 @@ const Resume = () => {
           <h3 className="left-column"></h3>
             <ul>
               <h3>langues</h3>
-              <li><span id="light">chinois, anglais : </span>courant</li>
+              <li><span id="light">chinois, anglais : </span>avancé</li>
               <li><span id="light">allemand, russe : </span>intermédiaire</li>
             </ul>
           </div>
         </div>
         <div className="right-column">
           <h3>expérience professionnelle </h3>
+          <h4> Dev frontend chez Traace-Tennaxia <span>2023-2025</span></h4>
+            <ul>
+              <li>Participation à l’élaboration et au développement de fonctionnalités -</li>
+              <li>Monitoring, résolution de bugs, maintenance, tests, revue de code -            </li>
+              <li>Travail en équipe, communication, prise d’initiative -</li>
+            </ul>
           <h4> Traduction anglais-chinois vers le français <span>2021-2023</span></h4>
             <ul>
               <li>missions variées pour Mophradat, Perspectives chinoises, revue Café -
@@ -65,9 +77,10 @@ const Resume = () => {
         <div>
           <h3 className="technos"> technologies </h3>
             <ul>
-              <li><span id="light">backend : </span>ruby, rails, postgreSQL, regex, rspec</li>
-              <li><span id="light">frontend : </span>html, CSS, bootstrap, javaScript, react</li>
-              <li><span id="light">api : </span>stripe, mailjet, devise, strapi</li>
+              <li><span id="light">langages : </span>javascript, typescript, ruby</li>
+              <li><span id="light">backend : </span>rails, nodeJS, postgreSQL, graphQL, redis</li>
+              <li><span id="light">frontend : </span>html, CSS, react, tailwind, playwright</li>
+              <li><span id="light">ops : </span>docker, dockerhub, github actions, nginX</li>
               <li><span id="light">collaboration : </span>Git, Github, Trello, Notion, LiveShare on VSCode</li>
               <li><span id="light">autre : </span>suite Office, LaTeX, Moodle, Pronote, Trados, OmegaT</li>
             </ul>
